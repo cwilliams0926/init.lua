@@ -27,3 +27,12 @@ Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 | `n` | `<leader>pf` | Find files |
 | `n` | `<leader>ps` | Live grep |
 | `n` | `<C-p>` | Find git-tracked files |
+
+## LSP Keymaps
+| Mode | Key | Action |
+| --- | --- | --- |
+| `n` | `K` | Hover information |
+| `n` | `gd` | Go-to definition |
+| `n` | `<leader>ca | Code Action |
+| `n` | `<leader>rn | Rename |
+
