@@ -1,10 +1,10 @@
 # init.lua
 My simple neovim config. Very minimal. I'm a beginner.
 
-# Pre-req
+## Pre-req
 Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 
-# Remaps
+## Remaps
 | Mode | Key | Action |
 | --- | --- | --- |
 | `n` | `<leader>pv` | Open netrw (`:Ex`) |
