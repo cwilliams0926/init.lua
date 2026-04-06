@@ -5,18 +5,18 @@ My simple neovim config. Very minimal. I'm a beginner.
 Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 # Remaps
-| **Mode** | **Key** | **Action** |
+| Mode | Key | Action |
+| --- | --- | --- |
 | `n` | `<leader>pv` | Open netrw (`:Ex`) |
 | `v` | `J` | Move selection down |
 | `v` | `K` | Move selection up |
 | `n` | `J` | Join lines without cursor moving |
-| `n` | `<C-d>` | Move down half a screen with cursor in middle |
-| `n` | `<C-u>` | Move up half a screen with cursor in middle |
-| `n` | `n` | Search with clean formatting |
-| `n` | `N` | Search with clean formatting (backward) |
+| `n` | `<C-d>` | Move down half a screen with cursor centered |
+| `n` | `<C-u>` | Move up half a screen with cursor centered |
+| `n` | `n` | Search forward cleanly |
+| `n` | `N` | Search backward cleanly |
 | `n` | `<leader>p` | Paste without losing yank |
 | `n` | `<leader>y` | Yank to system clipboard |
-| `v` | `<leader>y` | Same (visual) |
-| `n` | `<leader>Y` | Same (line) |
-| `n` | `Q` | Nomap |
-
+| `v` | `<leader>y` | Yank to system clipboard (visual) |
+| `n` | `<leader>Y` | Yank to system clipboard (line) |
+| `n` | `Q` | Unmapped |
