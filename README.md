@@ -20,3 +20,10 @@ Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 | `v` | `<leader>y` | Yank to system clipboard (visual) |
 | `n` | `<leader>Y` | Yank to system clipboard (line) |
 | `n` | `Q` | Unmapped |
+
+## Telescope Keymaps
+| Mode | Key | Action |
+| --- | --- | --- |
+| `n` | `<leader>pf` | Find files |
+| `n` | `<leader>ps` | Live grep |
+| `n` | `<C-p>` | Find git-tracked files |
