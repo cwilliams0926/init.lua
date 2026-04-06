@@ -1,4 +1,4 @@
-require("nconf")
+require("config")
 
 
 

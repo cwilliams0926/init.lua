@@ -6,6 +6,16 @@ vim.lsp.config('emmet_language_server', {
     }
 })
 
+vim.lsp.config('lua_ls', {
+  settings = {
+    Lua = {
+      diagnostics = {
+        globals = { 'vim' },
+      },
+    },
+  },
+})
+
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
     local opts = { buffer = ev.buf }
