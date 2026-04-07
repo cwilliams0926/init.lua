@@ -1,17 +1,22 @@
 return {
     {
-	"folke/tokyonight.nvim",
-	config = function() 
-	    vim.cmd.colorscheme "tokyonight"
-	end
+        "rose-pine/neovim",
+        name = "rose-pine",
+        priority = 1000,
+        config = function()
+            require("rose-pine").setup({
+                variant = "moon", -- auto, main, moon, dawn
+            })
+            vim.cmd.colorscheme("rose-pine")
+        end
     },
     {
-	"nvim-lualine/lualine.nvim",
-	dependencies = {
-	    "nvim-tree/nvim-web-devicons",
-	},
-	opts = {
-	    theme = 'tokyonight'
-	}
+        "nvim-lualine/lualine.nvim",
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
+        opts = {
+            theme = "rose-pine"
+        }
     },
 }
