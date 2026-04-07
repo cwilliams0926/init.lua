@@ -1,4 +1,12 @@
-local languages = {'html', 'css', 'javascript', 'typescript', 'lua'}
+local languages = {
+    'html',
+    'css',
+    'javascript',
+    'typescript',
+    'lua',
+    'markdown',
+    'markdown_inline',
+}
 
 return {
     'nvim-treesitter/nvim-treesitter',
