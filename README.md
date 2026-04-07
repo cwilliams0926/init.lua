@@ -36,3 +36,14 @@ Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 | `n` | `<leader>ca | Code Action |
 | `n` | `<leader>rn | Rename |
 
+## Harpoon Keymaps
+| Mode | Key | Action |
+| --- | --- | --- |
+| `n` | `<leader>a` | Add file to Harpoon |
+| `n` | `<C-e>` | Open Harpoon menu |
+| `n` | `<C-h>` | File 1 |
+| `n` | `<C-j>` | File 2 |
+| `n` | `<C-k>` | File 3 |
+| `n` | `<C-l>` | File 4 |
+| `n` | `<C-S-P>` | Previous file |
+| `n` | `<C-S-N>` | Next file |

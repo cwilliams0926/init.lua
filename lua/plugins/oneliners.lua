@@ -1,11 +1,14 @@
 return {
     { -- show CSS colors
-	'brenoprata10/nvim-highlight-colors',
-	config = function()
-	    require('nvim-highlight-colors').setup({})
-	end
+        'brenoprata10/nvim-highlight-colors',
+        config = function()
+            require('nvim-highlight-colors').setup({})
+        end
     },
     { -- git plugin
-	'tpope/vim-fugitive',
+        'tpope/vim-fugitive',
     },
+    { -- lspconfig
+        "neovim/nvim-lspconfig",
+    }
 }
