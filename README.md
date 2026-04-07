@@ -47,3 +47,9 @@ Install [ripgrep](https://github.com/BurntSushi/ripgrep)
 | `n` | `<C-l>` | File 4 |
 | `n` | `<C-S-P>` | Previous file |
 | `n` | `<C-S-N>` | Next file |
+
+## Live Server Keymaps
+| Mode | Key | Action |
+| --- | --- | --- |
+| `n` | `<leader>ls` | Start live server |
+| `n` | `<leader>lx` | Stop live server |
