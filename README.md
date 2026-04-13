@@ -1,8 +1,8 @@
 # init.lua
 My simple neovim config. Very minimal. I'm a beginner.
 
-[!WARNING]
-This repository is outdated. All neovim configurations were moved to my dotfiles repo you can find [here](https://github.com/cwilliams0926/dotfiles).
+> [!WARNING]
+> This repository is outdated. All neovim configurations were moved to my dotfiles repo you can find [here](https://github.com/cwilliams0926/dotfiles).
 
 ## Pre-req
 Install [ripgrep](https://github.com/BurntSushi/ripgrep)
